@@ -1,6 +1,9 @@
-﻿int a = 22;
-int b = 3;
-int c = 9;
+﻿Console.Write("Введите число a: ");
+int a = int.Parse(Console.ReadLine());
+Console.Write("Введите число b: ");
+int b = int.Parse(Console.ReadLine());
+Console.Write("Введите число c: ");
+int c = int.Parse(Console.ReadLine());
 int Max = a;
 if (Max < b)
 {
@@ -10,4 +13,5 @@ if (Max < c)
 {
     Max = c;
 }
-Console.WriteLine(Max);
+Console.Write("Максимальное число: ");
+Console.Write(Max);
